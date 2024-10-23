@@ -6,6 +6,7 @@ const app = express();
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const MongoStore = require('connect-mongo');
+const methodOverride = require('method-override');
 
 //NouraF- note that the path is a little different it's under routes
 const connectDB = require('./server/config/db');
