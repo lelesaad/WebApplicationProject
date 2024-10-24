@@ -24,11 +24,10 @@ It is a blog site where people can write posts, edit them, delete them, search f
 6. [Setup](#setup)
 7. [Technologies Used](#technologies-used)
 8. [Tools](#tools)
-9. [Design](#design)
-10. [Website Interfaces](#website-interfaces)
-11. [Future Work](#future-work)
-12. [References](#references)
-13. [Team Members](#team-members)
+9. [Website Interfaces](#website-interfaces)
+10. [Future Work](#future-work)
+11. [References](#references)
+12. [Team Members](#team-members)
 
 
 ## Features <a name="features"></a>
@@ -112,10 +111,6 @@ To set up the project locally, follow these steps:
 * Visual Studio
 * Github
 
-
-## Design <a name="design"></a>
-We used figma website design template by [flowbase]
-Check out the Tempplate [https://www.figma.com/community/file/1093372331682706566/cooking-template-by-flowbase-co]
 
 
 ## Website Interfaces <a name="website-interfaces"></a>
