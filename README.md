@@ -94,23 +94,14 @@ To set up the project locally, follow these steps:
   ```
 
 ## Technologies Used <a name="technologies-used"></a>
-* Frontend: CSS, HTML, Javascript
-* Backend: Node.js, Express.js
-* Database: MongoDB
-* AI: OpenAI API
-* Express.js: A web application framework for Node.js, used for handling HTTP requests and routing.
-* Body-parser: Middleware for parsing incoming request bodies in Express.js.
-* Mongoose: An Object Data Modeling (ODM) library for MongoDB and Node.js, used for schema validation and interacting with MongoDB databases.
-* Bcrypt: A library for hashing passwords, used for user authentication and security.
-* Passport.js: Authentication middleware for Node.js, used for user authentication strategies.
-* Express-session: Middleware for managing user sessions in Express.js applications.
-* Connect-flash: Middleware for displaying flash messages in Express.js.
-* Path: Node.js module for handling file paths.
-* Multer: Middleware for handling multipart/form-data, used for file uploads.
-* MongoDB: A NoSQL database used for storing application data.
-* JavaScript (Node.js): The project is built using JavaScript, with Node.js as the runtime environment.
-* HTML/CSS: Used for frontend markup and styling.
-* Design: Figma (UI design modified and enhanced)
+* HTML5: For structuring the website and content layout.
+* CSS3: For styling the website and ensuring responsive design.
+* JavaScript: To add interactivity and dynamic functionality.
+* React.js: A JavaScript library used for building the user interface.
+* Node.js: Backend JavaScript runtime for server-side functionality.
+* MongoDB: NoSQL database used for storing data.
+* Express.js: Web framework for Node.js to build APIs and manage routes.
+* Git: Version control for managing project changes.
 
 ## Tools <a name="tools"></a>
 * Figma
