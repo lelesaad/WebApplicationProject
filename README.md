@@ -31,11 +31,13 @@ It is a blog site where people can write posts, edit them, delete them, search f
 
 
 ## Features <a name="features"></a>
-* AI Assistant: Ask questions and get personalized recipe suggestions.
-* Friendly user expirince
-* Easy process to create account
-* Community for foodie lovers in one place 
-* Filter Recipies by the category : Breakfast, Dinner, Lunch
+* Simple, user-friendly design.
+* Smart search functionality.
+* Personalized content.
+* Multimedia.
+* User accounts for personalization.
+* Admin dashboard.
+* Customization options (e.g., dark mode).
 
 ## Flow Chart <a name="flow-chart"></a>
 Here is the website Flow chart if you want to take a look
@@ -120,9 +122,14 @@ This is the main page interface which has the AI assistant, you can also add rec
 (https://drive.google.com/file/d/11cJNWok9xEE6EC0rSwN3SnHVVoXgrdTe/view?usp=sharing)
 
 ## Future Work <a name="future-work"></a>
-* Enhanced AI Features: Improve AI responses and add voice interaction capabilities.
-* More Recipes: Continuously expand the recipe database.
-* User Preferences: Implement features to save user dietary preferences and restrictions.
+* Multi-language support.
+* Improve performance and compatibility.
+* Add AI-based recommendations.
+* Develop a mobile app.
+* Add notifications for updates.
+* Enhance security.
+* Integrate social media.
+* E-commerce features.
 
 ## References <a name="references"></a>
 * [MongoDB Documentation](https://www.mongodb.com/docs/)
