@@ -115,7 +115,7 @@ To set up the project locally, follow these steps:
 This is the main page interface which has the AI assistant, you can also add recipies after you create an account ![Green Simple Reasons Why Buying Experience is Worth Infographic](https://github.com/Shaden03/WebProject/assets/116809090/8e8b75d8-b589-4e70-81aa-19497bad8705)
 
 ## Website Demo
-(https://drive.google.com/file/d/11cJNWok9xEE6EC0rSwN3SnHVVoXgrdTe/view?usp=sharing)
+(https://drive.google.com/file/d/16A5mtfU-tkV7nZAv3_qxIUwsHVFQODNU/view)
 
 ## Future Work <a name="future-work"></a>
 * Multi-language support.
