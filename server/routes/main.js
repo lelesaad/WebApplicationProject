@@ -72,50 +72,59 @@ router.get('/post/:id', async (req, res) => {
 */
 router.post('/search', async (req, res) => {
     try {
-    const locals = {
-        title: "Seach",
-        description: "Simple Blog created with NodeJs, Express & MongoDb."
-    }
 
-    let searchTerm = req.body.searchTerm;
-    const searchNoSpecialChar = searchTerm.replace(/[^a-zA-Z0-9 ]/g, "")
+        
+        const locals = {
+            title: "Search", // Corrected the spelling
+            description: "Simple Blog created with NodeJs, Express & MongoDb."
+        };
 
-    const data = await Post.find({
-        $or: [
-        { title: { $regex: new RegExp(searchNoSpecialChar, 'i') }},
-        { body: { $regex: new RegExp(searchNoSpecialChar, 'i') }}
-        ]
-    });
+        let searchTerm = req.body.searchTerm;
 
-    res.render("search", {
-        data,
-        locals,
-    });
+        // Validate searchTerm
+        if (!searchTerm) {
+            return res.status(400).send('Search term cannot be empty');
+        }
+
+        const searchNoSpecialChar = searchTerm.replace(/[^a-zA-Z0-9 ]/g, "");
+
+        const data = await Post.find({
+            $or: [
+                { title: { $regex: new RegExp(searchNoSpecialChar, 'i') }},
+                { body: { $regex: new RegExp(searchNoSpecialChar, 'i') }}
+            ]
+        });
+
+        // Assuming slug is derived from the search term or another source
+        const slug = searchNoSpecialChar.toLowerCase().replace(/\s+/g, '-'); // Example slug creation
+
+        res.render("search", {
+            data,
+            locals,
+            currentRoute: `/post/${slug}` // Ensure slug is defined
+        });
 
     } catch (error) {
-    console.log(error);
+        console.error(error);
+        res.status(500).send('Internal Server Error'); // Send error response
     }
-
 });
-
-
-
-
-
-
-
-
-
 
 
 
 
 router.get('/about', (req, res)=>{
-    res.render('about');
+    res.render('about',{
+        currentRoute: '/about'
+    });
+
 });
 
 router.get('/contact', (req, res)=>{
-    res.render('contact');
+    res.render('contact',{
+        currentRoute: '/contact'
+    });
+
 });
 
 module.exports = router;

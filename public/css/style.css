@@ -336,3 +336,28 @@ img {
 .pagination:hover {
   color: var(--black);
 }
+
+.About {
+  text-align: left; /* Align text to the left for a more traditional look */
+  margin: 40px auto; /* Center the container with more vertical space */
+  padding: 20px; /* Add padding for inner spacing */
+}
+
+.About__heading {
+  font-size: var(--font-size-xl); /* Use defined font size */
+  font-weight: bold; /* Bold text for emphasis */
+  color: var(--black); /* Use defined black color */
+  margin-bottom: 15px; /* Space below the heading */
+  border-bottom: 2px solid var(--black); /* Underline with color */
+  padding-bottom: 10px; /* Space between text and underline */
+}
+
+.about__body {
+  font-size: var(--font-size-sm); /* Use defined medium font size */
+  color: var(--black); /* Use defined gray color */
+  margin: 15px 0; /* Space between paragraphs */
+  margin-left: auto; /* Center align the text block */
+  margin-right: auto; /* Center align the text block */
+}
+
+

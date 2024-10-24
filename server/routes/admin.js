@@ -150,5 +150,94 @@ router.get('/add-post', authMiddleware, async (req, res) => {
 
 });
 
+router.post('/add-post', authMiddleware, async (req, res) => {
+  try {
+      const { title, body } = req.body; // Ensure you are extracting 'body' instead of 'content'
+
+      // Basic validation
+      if (!title || !body) {
+          return res.status(400).send('Title and body are required.'); // Bad request
+      }
+
+      const newPost = new Post({ title, body }); // Use 'body' here
+      await newPost.save();
+
+      res.redirect('/dashboard'); // Redirect after successful save
+  } catch (error) {
+      console.log('Error saving post:', error);
+      res.status(500).send('Server Error'); // Handle errors appropriately
+  }
+});
+
+/**
+ * PUT /
+ * Admin - Edit Post
+*/
+router.put('/edit-post/:id', authMiddleware, async (req, res) => {
+  try {
+    await Post.findByIdAndUpdate(req.params.id,{
+      title: req.body.title,
+      body: req.body.body,
+      updatedAt: Date.now()
+    });
+    res.redirect(`/edit-post/${req.params.id}`)
+
+  } catch (error) {
+    console.log(error);
+  }
+
+});
+
+
+/**
+ * Get  /
+ * Admin - Edit Post
+*/
+router.get('/edit-post/:id', authMiddleware, async (req, res) => {
+  try {
+    const locals = {
+      title: 'Edit Post',
+      description: 'Free NodeJs User Management System ',
+    }
+
+    const data = await Post.findOne({_id: req.params.id});
+    res.render('admin/edit-post',{
+      locals,
+      data,
+      layout:adminLayout
+    })
+
+
+  } catch (error) {
+    console.log(error);
+  }
+
+});
+
+/**
+ * DELETE /
+ * Admin - delete Post
+*/
+router.delete('/delete-post/:id', authMiddleware, async (req, res) => {
+  try {
+    await Post.deleteOne({ _id: req.params.id });
+    res.redirect('/dashboard');
+  } catch (error) {
+    console.log(error);
+    res.status(500).send("Error deleting post");
+  }
+});
+
+
+
+/**
+ * GET /
+ * Admin Logout
+*/
+router.get('/logout',(req, res)=>{
+  res.clearCookie('token');
+  //res.json({message: 'Logout successful.'});
+  res.redirect('/');
+})
 
 module.exports = router;
