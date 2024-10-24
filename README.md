@@ -143,8 +143,8 @@ This is the main page interface which has the AI assistant, you can also add rec
 
 
 ## Team Members <a name="team-members"></a>
-[**@Fatima Aldukkan**](https://github.com/Shaden03)<br>
-[**@Noura Alghamdi**](https://github.com/Atheer31-3)<br>
-[**@Layan Alqarni**]<br>
-[**@Noura Alfantoukh**]<br>
+[**Fatima Aldukkan**]<br>
+[**Noura Alghamdi**]<br>
+[**Layan Alqarni**]<br>
+[**Noura Alfantoukh**]<br>
 
