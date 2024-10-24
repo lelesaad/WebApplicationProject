@@ -3,12 +3,7 @@
 
 
 ![WhatsApp Image 2024-10-24 at 2 33 00 PM](https://github.com/user-attachments/assets/aee48208-12e2-4c0b-b9a2-8612d6dc9583)
-![WhatsApp Image 2024-10-24 at 2 34 00 PM](https://github.com/user-attachments/assets/420ea37c-69bc-45aa-a14c-7d434d7262ec)
-![WhatsApp Image 2024-10-24 at 2 34 13 PM](https://github.com/user-attachments/assets/e38664e7-1930-4f3d-bc80-3bc631abb5f7)
-![WhatsApp Image 2024-10-24 at 2 34 26 PM](https://github.com/user-attachments/assets/51e6a746-3c25-45ba-ba21-2fe6299f534e)
-![WhatsApp Image 2024-10-24 at 2 33 36 PM](https://github.com/user-attachments/assets/b6b3e697-e813-420c-95b5-8bded63713d4)
-![WhatsApp Image 2024-10-24 at 2 33 19 PM](https://github.com/user-attachments/assets/b434449b-400b-425b-98b0-f04f65a3755e)
-![WhatsApp Image 2024-10-24 at 2 33 09 PM](https://github.com/user-attachments/assets/a6d63c35-0574-4b15-8a2e-b1ec06f2b340)
+
 
 # OverView <a name="overview"></a>
 It is a blog site where people can write posts, edit them, delete them, search for a particular post, etc.
@@ -33,25 +28,24 @@ It is a blog site where people can write posts, edit them, delete them, search f
 ## Features <a name="features"></a>
 * Simple, user-friendly design.
 * Smart search functionality.
-* Personalized content.
-* Multimedia.
-* User accounts for personalization.
-* Admin dashboard.
-* Customization options (e.g., dark mode).
+* Create Post: Users can write and publish blog posts.
+* Edit Post: Allow users to edit their posts after publishing.
+* Delete Post: Authors or administrators can delete posts.
+* Easy access to the site creator and communication with them
+
 
 ## Flow Chart <a name="flow-chart"></a>
 Here is the website Flow chart if you want to take a look
-![WhatsApp Image 2024-05-24 at 6 29 39 AM]()
+<img width="750" alt="FlowChart" src="https://github.com/user-attachments/assets/9c2e16eb-d5fc-47e1-b211-4469da2fc4af">
+
+
 
 ## Goals <a name="goals"></a>
-* Enhance user engagement through personalized content and interactive features.
-* Expand audience reach by supporting multiple languages.
-* Improve performance for faster load times and better user experience across devices.
-* Increase user retention by adding account personalization and notifications.
-* Ensure data security with enhanced privacy measures.
-* Monetize the platform through e-commerce or premium features.
-* Integrate AI to provide smarter content recommendations.
-* Boost social sharing to drive traffic from social media.
+* Create an easy-to-use platform for content creation and management
+* Seamless Writing Experience
+* Content Organization
+* Encourage Feedback
+* Efficient Search and Navigation
   
 ## Setup <a name="setup"></a>
 
@@ -62,10 +56,6 @@ To set up the project locally, follow these steps:
   git clone https://github.com/Shaden03/WebProject.git
   ```
 
-* **Navigate to the Project Directory:**
-  ```bash
-  cd foodieland
-  ```
 
 * **Install Dependencies:**
   - Ensure you have [Node.js](https://nodejs.org/) installed.
@@ -111,8 +101,13 @@ To set up the project locally, follow these steps:
 
 
 ## Website Interfaces <a name="website-interfaces"></a>
-This is the main page interface. You can also add content after creating an account. ![Green Simple Reasons Why Buying Experience is Worth Infographic](https://github.com/Shaden03/WebProject/assets/116809090/8e8b75d8-b589-4e70-81aa-19497bad8705)
-
+![WhatsApp Image 2024-10-24 at 2 33 00 PM](https://github.com/user-attachments/assets/aee48208-12e2-4c0b-b9a2-8612d6dc9583)
+![WhatsApp Image 2024-10-24 at 2 34 00 PM](https://github.com/user-attachments/assets/420ea37c-69bc-45aa-a14c-7d434d7262ec)
+![WhatsApp Image 2024-10-24 at 2 34 13 PM](https://github.com/user-attachments/assets/e38664e7-1930-4f3d-bc80-3bc631abb5f7)
+![WhatsApp Image 2024-10-24 at 2 34 26 PM](https://github.com/user-attachments/assets/51e6a746-3c25-45ba-ba21-2fe6299f534e)
+![WhatsApp Image 2024-10-24 at 2 33 36 PM](https://github.com/user-attachments/assets/b6b3e697-e813-420c-95b5-8bded63713d4)
+![WhatsApp Image 2024-10-24 at 2 33 19 PM](https://github.com/user-attachments/assets/b434449b-400b-425b-98b0-f04f65a3755e)
+![WhatsApp Image 2024-10-24 at 2 33 09 PM](https://github.com/user-attachments/assets/a6d63c35-0574-4b15-8a2e-b1ec06f2b340)
 ## Website Demo
 (https://drive.google.com/file/d/16A5mtfU-tkV7nZAv3_qxIUwsHVFQODNU/view)
 
