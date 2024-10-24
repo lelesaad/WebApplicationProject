@@ -44,10 +44,15 @@ Here is the website Flow chart if you want to take a look
 ![WhatsApp Image 2024-05-24 at 6 29 39 AM]()
 
 ## Goals <a name="goals"></a>
-* To create an intuitive and user-friendly platform for discovering recipes.
-* To leverage AI for personalized user interactions and recommendations.
-* To build a community of food enthusiasts sharing their culinary creations.
-
+* Enhance user engagement through personalized content and interactive features.
+* Expand audience reach by supporting multiple languages.
+* Improve performance for faster load times and better user experience across devices.
+* Increase user retention by adding account personalization and notifications.
+* Ensure data security with enhanced privacy measures.
+* Monetize the platform through e-commerce or premium features.
+* Integrate AI to provide smarter content recommendations.
+* Boost social sharing to drive traffic from social media.
+  
 ## Setup <a name="setup"></a>
 
 To set up the project locally, follow these steps:
