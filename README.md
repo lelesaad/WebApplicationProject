@@ -104,7 +104,6 @@ To set up the project locally, follow these steps:
 * Git: Version control for managing project changes.
 
 ## Tools <a name="tools"></a>
-* Figma
 * MongoDB
 * Visual Studio
 * Github
